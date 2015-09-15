@@ -1,4 +1,4 @@
-print ("welkom to triangle.py")
+print ("welcome to triangle.py")
 
 size =0
 
