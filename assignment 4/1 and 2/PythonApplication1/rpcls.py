@@ -1,0 +1,101 @@
+﻿pointp1 = 0
+pointp2 = 0
+
+while True:
+    choice = raw_input("rock, paper or scissors for player 1?: ")
+    choice2 = raw_input("rock, paper or scissors for player 2?: ")
+    choice = choice.lower()
+    choice2 = choice2.lower()
+
+    if "rock" in choice:
+        if "rock" in choice2:
+            print "rock is rock, draw"
+        elif "paper" in choice2:
+            print "paper wraps rock, player 2 wins"
+            pointp2 += 1
+        elif "scissors" in choice2:
+            print "rock smashes scissors, player 1 wins"
+            pointp1 += 1
+        elif "spock" in choice2:
+            print "spock vaporizes rock, player 2 wins"
+            pointp2 += 1
+        elif "lizard" in choice2:
+            print "rock smashes lizard, player 1 wins"
+            pointp1 += 1
+        else:
+            continue
+    
+    elif "paper" in choice:
+        if "rock" in choice2:
+            print "paper wraps rock, player 1 wins"
+            pointp1 += 1
+        elif "scissors" in choice2:
+            print "scissors cut paper, player 2 wins"
+            pointp2 += 1
+        elif "paper" in choice2:
+            print "paper is paper, draw"
+        elif "spock" in choice2:
+            print "paper disproves spock, player 1 wins"
+            pointp1 += 1
+        elif "lizard" in choice2:
+            print "lizard eats paper, player 2 wins"
+            pointp2 += 1
+        else:
+            continue
+    
+    elif "scissors" in choice:
+        if "scissors" in choice2:
+            print "scissors are scissors, draw"
+        elif "rock" in choice2:
+            print "rock smashes scissors, player 2 wins"
+            pointp2 += 1
+        elif "paper" in choice2:
+            print "scissors cut paper, player 1 wins"
+            pointp1 += 1
+        elif "spock" in choice2:
+            print "spock smashes scissors, player 2 wins"
+            pointp2 += 1
+        elif "lizard" in choice2:
+            print "scissors decapitate lizard, player 1 wins"
+            pointp1 += 1
+        else:
+            continue
+
+    elif "spock" in choice:
+        if "scissors" in choice2:
+            print "spock smashes scissors, player 1 wins"
+            pointp1 += 1
+        elif "rock" in choice2:
+            print "spock vaporizes rock, player 1 wins"
+            pointp1 += 1
+        elif "paper" in choice2:
+            print "paper disproves spock, player 2 wins"
+            pointp2 += 1
+        elif "spock" in choice2:
+            print "spock is spock, draw"
+        elif "lizard" in choice2:
+            print "lizard poisons spock, player 2 wins"
+            pointp2 += 1
+        else:
+            continue
+
+    elif "lizard" in choice:
+        if "scissors" in choice2:
+            print "scissors decapitate lizard, player 2 wins"
+            pointp2 += 1
+        elif "rock" in choice2:
+            print "rock crushes lizard, player 2 wins"
+            pointp2 += 1
+        elif "paper" in choice2:
+            print "lizard eats paper, player 1 wins"
+            pointp1 += 1
+        elif "spock" in choice2:
+            print "lizard poisons spock, player 1 wins"
+            pointp1 += 1
+        elif "lizard" in choice2:
+            print "lizard is lizard, draw"
+        else:
+            continue
+    else:
+        print "either '%s' or '%s' was a wrong input" % (choice, choice2) 
+    print "player 1 has %s points and player 2 has %s points" % (pointp1, pointp2)
