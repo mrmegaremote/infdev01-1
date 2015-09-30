@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>0f9a693e-c112-42d8-9142-58008f623fc6</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>passwords.py</StartupFile>
+    <StartupFile>crypt.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
