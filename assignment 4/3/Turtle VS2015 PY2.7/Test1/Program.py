@@ -71,6 +71,10 @@ def Program():
     elif x == 115:turtle.backward(15)
     elif x == 32:hex()
 
+    if x == 49:turtle.color(Red)
+    if x == 50:turtle.color(Blue)
+    if x == 51:turtle.color(Green)
+    if x == 52:turtle.color(Black)
     
     
 
