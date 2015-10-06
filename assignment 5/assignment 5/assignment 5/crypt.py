@@ -1,5 +1,6 @@
-while True:
+﻿while True:
     #97 ~ 122
+
     #definitions
     inp = raw_input("enter a phrase: \n")
     key = input("enter a key: \n")
@@ -13,6 +14,7 @@ while True:
         while new > 122:
             new -= 26
         return new
+
 
     #finding wether the character should be encrypted
     for i in range (0, len(inp)):

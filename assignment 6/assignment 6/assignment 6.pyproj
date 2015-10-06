@@ -3,15 +3,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>cceb198a-5b2f-427b-9345-09ce4682908f</ProjectGuid>
+    <ProjectGuid>fbd3fdfb-3018-4393-921b-70fc97596aef</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>rpc.py</StartupFile>
+    <StartupFile>triangle.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>PythonApplication1</Name>
-    <RootNamespace>PythonApplication1</RootNamespace>
+    <Name>assignment 6</Name>
+    <RootNamespace>assignment 6</RootNamespace>
     <InterpreterId>{2af0f10d-7135-4994-9156-5d01c9c11b7e}</InterpreterId>
     <InterpreterVersion>2.7</InterpreterVersion>
   </PropertyGroup>
@@ -24,19 +24,19 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="absolute.py">
+    <Compile Include="circle.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="kelvin.py">
+    <Compile Include="full square.py" />
+    <Compile Include="full triangle.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="rpcls.py">
+    <Compile Include="hollow square.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="rpc.py">
+    <Compile Include="triangle.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="fahrenheit.py" />
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="{2af0f10d-7135-4994-9156-5d01c9c11b7e}\2.7" />

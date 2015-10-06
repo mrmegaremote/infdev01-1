@@ -1,4 +1,4 @@
-while True:
+﻿while True:
     #resetting scores
     score = 0
     ups = 0
