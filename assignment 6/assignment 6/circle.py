@@ -4,12 +4,12 @@ while True:
     cir = ""
     inp = input("enter a number: \n")
 
-    for i in range(0, inp):
-        for j in range (0, inp):
-            di = inp / 2
-            dj = inp / 2 
-            dist = sqrt(di ** di + dj ** dj)
-            if inp <= dist:
+    for i in range(0, inp * 2):
+        for j in range (0, inp * 2):
+            di = (i - inp) ** 2
+            dj = (j - inp) ** 2
+            dist = sqrt(di + dj)
+            if inp > dist:
                 cir += "*"
             else:
                 cir += " "

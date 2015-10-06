@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>fbd3fdfb-3018-4393-921b-70fc97596aef</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>triangle.py</StartupFile>
+    <StartupFile>circle.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -32,6 +32,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="hollow square.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="smiley.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="triangle.py">
