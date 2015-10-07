@@ -34,9 +34,6 @@
     <Compile Include="hollow square.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="smiley.py">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="triangle.py">
       <SubType>Code</SubType>
     </Compile>

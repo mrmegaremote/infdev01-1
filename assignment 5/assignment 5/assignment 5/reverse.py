@@ -1,5 +1,6 @@
-while True:
+﻿while True:
     inp = raw_input("input some text: \n")
+    
     rev = ""
 
     #inversing the order of the characters

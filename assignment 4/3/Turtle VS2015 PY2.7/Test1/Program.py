@@ -35,6 +35,8 @@ def Program():
     #---------------------------------------------------------------------
     #                  PUT YOUR CODE BELOW
     #---------------------------------------------------------------------
+    
+
     def hex():
         turtle.forward(30)        
         turtle.left(45)
@@ -60,7 +62,6 @@ def Program():
         turtle.forward(30)
         turtle.left(45)
         turtle.color(Black)
-        
 
     x = get()
     #print x
