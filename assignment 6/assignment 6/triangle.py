@@ -4,7 +4,7 @@
      
     for i in range (0, inp):
         for j in range (0, inp * 2):
-            if inp-i < j and (inp+i) > j:
+            if inp - i < j and inp + i > j:
                 tri += "*"
             else:
                 tri += " "

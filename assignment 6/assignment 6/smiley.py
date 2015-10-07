@@ -1,4 +1,4 @@
-﻿from math import *
+from math import *
 
 while True:
     cir = ""
@@ -9,10 +9,14 @@ while True:
             di = (i - inp) ** 2
             dj = (j - inp) ** 2 
             dist = sqrt(di + dj)
-            if inp > dist: 
+            if inp > dist and inp * 0.8 < dist: 
                 cir += "*"
+            elif j == inp - inp / 3 and i == inp - (inp / 4) or j == inp + inp / 3 and i == inp - (inp / 4):
+                cir += "#"
+            #elif 
             else:
                 cir += " "
             
         cir += "\n"
     print cir
+            
