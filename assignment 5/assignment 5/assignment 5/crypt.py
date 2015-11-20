@@ -13,10 +13,12 @@
         new = ord(b) + a
         while new > 122:
             new -= 26
+        while new < 97:
+            new += 26
         return new
 
 
-    #finding wether the character should be encrypted
+    #finding weather the character should be encrypted
     for i in range (0, len(inp)):
         if inp[i].isalpha():
             if inp[i].isupper():
@@ -25,7 +27,7 @@
                 upper = False;
 
             if upper:
-                cryp += str.upper(chr(crypt(key, inp[i])))
+                cryp += str.upper(chr(crypt(key, str.lower(inp[i]))))
             elif not upper:
                 cryp += str.lower(chr(crypt(key, inp[i])))
         else:

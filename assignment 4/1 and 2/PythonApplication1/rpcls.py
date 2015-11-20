@@ -16,8 +16,8 @@ while True:
         elif "scissors" in choice2:
             print "rock smashes scissors, player 1 wins"
             pointp1 += 1
-        elif "spock" in choice2:
-            print "spock vaporizes rock, player 2 wins"
+        elif "Spock" in choice2:
+            print "Spock vaporizes rock, player 2 wins"
             pointp2 += 1
         elif "lizard" in choice2:
             print "rock smashes lizard, player 1 wins"
@@ -34,8 +34,8 @@ while True:
             pointp2 += 1
         elif "paper" in choice2:
             print "paper is paper, draw"
-        elif "spock" in choice2:
-            print "paper disproves spock, player 1 wins"
+        elif "Spock" in choice2:
+            print "paper disproves Spock, player 1 wins"
             pointp1 += 1
         elif "lizard" in choice2:
             print "lizard eats paper, player 2 wins"
@@ -52,8 +52,8 @@ while True:
         elif "paper" in choice2:
             print "scissors cut paper, player 1 wins"
             pointp1 += 1
-        elif "spock" in choice2:
-            print "spock smashes scissors, player 2 wins"
+        elif "Spock" in choice2:
+            print "Spock smashes scissors, player 2 wins"
             pointp2 += 1
         elif "lizard" in choice2:
             print "scissors decapitate lizard, player 1 wins"
@@ -61,20 +61,20 @@ while True:
         else:
             continue
 
-    elif "spock" in choice:
+    elif "Spock" in choice:
         if "scissors" in choice2:
-            print "spock smashes scissors, player 1 wins"
+            print "Spock smashes scissors, player 1 wins"
             pointp1 += 1
         elif "rock" in choice2:
-            print "spock vaporizes rock, player 1 wins"
+            print "Spock vaporizes rock, player 1 wins"
             pointp1 += 1
         elif "paper" in choice2:
-            print "paper disproves spock, player 2 wins"
+            print "paper disproves Spock, player 2 wins"
             pointp2 += 1
-        elif "spock" in choice2:
-            print "spock is spock, draw"
+        elif "Spock" in choice2:
+            print "Spock is Spock, draw"
         elif "lizard" in choice2:
-            print "lizard poisons spock, player 2 wins"
+            print "lizard poisons Spock, player 2 wins"
             pointp2 += 1
         else:
             continue
@@ -89,8 +89,8 @@ while True:
         elif "paper" in choice2:
             print "lizard eats paper, player 1 wins"
             pointp1 += 1
-        elif "spock" in choice2:
-            print "lizard poisons spock, player 1 wins"
+        elif "Spock" in choice2:
+            print "lizard poisons Spock, player 1 wins"
             pointp1 += 1
         elif "lizard" in choice2:
             print "lizard is lizard, draw"

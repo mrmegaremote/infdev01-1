@@ -1,4 +1,4 @@
-from math import *
+﻿from math import *
 
 while True:
     cir = ""
@@ -13,7 +13,8 @@ while True:
                 cir += "*"
             elif j == inp - inp / 3 and i == inp - (inp / 4) or j == inp + inp / 3 and i == inp - (inp / 4):
                 cir += "#"
-            #elif 
+            elif i == inp + 1 and j == inp:
+                cir += "@"
             else:
                 cir += " "
             
