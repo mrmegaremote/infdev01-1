@@ -3,15 +3,17 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>aea02dc3-df17-4f8d-b77c-5abf596d08e1</ProjectGuid>
+    <ProjectGuid>4a728a49-0f03-4c3e-9a32-74e7e51424ef</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>car.py</StartupFile>
+    <StartupFile>lists.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>car</Name>
-    <RootNamespace>car</RootNamespace>
+    <Name>lists</Name>
+    <RootNamespace>lists</RootNamespace>
+    <InterpreterId>{2af0f10d-7135-4994-9156-5d01c9c11b7e}</InterpreterId>
+    <InterpreterVersion>3.4</InterpreterVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,13 +24,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="car.py" />
+    <Compile Include="lists.py" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="car.py.vsspell">
-      <SubType>Content</SubType>
-      <DependentUpon>car.py</DependentUpon>
-    </Content>
+    <InterpreterReference Include="{2af0f10d-7135-4994-9156-5d01c9c11b7e}\3.4" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

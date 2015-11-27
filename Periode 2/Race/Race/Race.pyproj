@@ -3,15 +3,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>aea02dc3-df17-4f8d-b77c-5abf596d08e1</ProjectGuid>
+    <ProjectGuid>32f6bc99-b545-40f4-8708-f5fb2a3a7fa8</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>car.py</StartupFile>
+    <StartupFile>Race.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>car</Name>
-    <RootNamespace>car</RootNamespace>
+    <Name>Race</Name>
+    <RootNamespace>Race</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,13 +22,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="car.py" />
+    <Compile Include="Race.py" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="car.py.vsspell">
-      <SubType>Content</SubType>
-      <DependentUpon>car.py</DependentUpon>
-    </Content>
+    <Content Include="sprite.png" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

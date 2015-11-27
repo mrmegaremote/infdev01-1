@@ -1,4 +1,5 @@
-﻿class Car:
+import Race
+class Car:
     def __init__ (self, engine, seat, light, people, wheels): 
         self.engine = engine
         self.seat = seat
