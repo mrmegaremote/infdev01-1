@@ -1,4 +1,4 @@
-import pygame
+﻿import pygame
 from pygame.locals import *
 import os, sys, random
 pygame.init()
@@ -23,8 +23,11 @@ class Vector2:
         self.X = x
         self.Y = y
 
-
 vehicle = Car(-100, random.randint(0, 400))
+v2 = Car(-100, random.randint(0, 400))
+v3  = Car(-100, random.randint(0, 400))
+v4  = Car(-100, random.randint(0, 400))
+v5  = Car(-100, random.randint(0, 400))
 
 screen = pygame.display.set_mode((800, 600))
 
