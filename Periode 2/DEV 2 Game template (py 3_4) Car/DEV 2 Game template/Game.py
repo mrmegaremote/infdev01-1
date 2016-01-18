@@ -70,7 +70,7 @@ def Main():
     Draw(cars, screen)
 
     pygame.display.flip()
-    time.sleep(1)
+    time.sleep(0.01)
     
 Main()
 
